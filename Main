@@ -1,3 +1,4 @@
+//Created by: ANGEL E. OBERTO
 #define BLYNK_PRINT Serial
 
 String  json_request =  "{\"method\":\"passthrough\",\"params\":{\"deviceId\":\" "ID DEVICE HERE" \",\"requestData\":\"{\\\"emeter\\\":{\\\"get_realtime\\\":null}}\"}}";
@@ -184,9 +185,9 @@ void client_connection(){
   Serial.println (emeter_get_realtime_total);
 
 
-
   // Close the connection after the server closes its end
     client.stop();
 
     return; 
 }
+//Created by: ANGEL E. OBERTO
