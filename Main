@@ -1,4 +1,5 @@
 //Created by: ANGEL E. OBERTO
+
 #define BLYNK_PRINT Serial
 
 String  json_request =  "{\"method\":\"passthrough\",\"params\":{\"deviceId\":\" "ID DEVICE HERE" \",\"requestData\":\"{\\\"emeter\\\":{\\\"get_realtime\\\":null}}\"}}";
